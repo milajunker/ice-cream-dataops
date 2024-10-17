@@ -20,15 +20,15 @@ variables:
       IDP_TOKEN_URL: ${IDP_TOKEN_URL} # replaced by .env
       # Groups
       # OBJECT ID FOR TEST/PROD DATA DEVELOPER ENTRA GROUP
-      data_developer_source_id: bd34aabd-3d7b-4e9c-ac8d-3ec6f79b4d93
+      data_developer_source_id: b71878de-2bb6-4332-86b8-0456495ba2ef
       # OBJECT ID FOR TEST/PROD DATA PIPELINE OEE ENTRA GROUP
-      data_pipeline_oee_source_id: bd3f8a34-c567-4903-bb51-4ccb38dcebd6
+      data_pipeline_oee_source_id: 3d32e2fe-68f4-4728-bad3-5f2efcd2e411
       # OBJECT ID FOR TEST/PROD ADMIN TK ENTRA GROUP
-      readwrite_source_id: 03ec17af-1bde-424c-9592-196ee28f109c
+      readwrite_source_id: a08014c9-e97d-43f0-841d-104d828
       # OBJECT ID FOR TEST/PROD ADMIN TK ENTRA GROUP
-      readonly_source_id: 03ec17af-1bde-424c-9592-196ee28f109c
+      readonly_source_id: a08014c9-e97d-43f0-841d-104d828
       # OBJECT ID FOR TEST/PROD ADMIN TK ENTRA GROUP
-      icapi_extractors_source_id: 07442955-5585-41eb-b969-78f2311b4662
+      icapi_extractors_source_id: def1dce6-3e59-4c4e-bf65-c9b285fb7b4a
       # Client Ids
       data_pipeline_oee_client_id: ${DATA_PIPELINE_OEE_CLIENT_ID} # replaced by .env
       data_pipeline_oee_client_secret: ${DATA_PIPELINE_OEE_CLIENT_SECRET} # replaced by .env
